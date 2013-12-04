@@ -26,10 +26,14 @@
 
 		<!-- <a href="./short_image/short_image.html" data-role="button" data-icon="star" data-theme="e">抓拍照片</a> -->
 		<?php
-		    echo "<a href=\"./short_image/short_image.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">抓拍照片1</a>\n";
+		    echo "<a href=\"./short_image/short_image.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">抓拍照片</a>\n";
 		?>
 
-		<a href="#" data-role="button" data-icon="star">抓拍视频</a>
+		<!-- <a href="#" data-role="button" data-icon="star">抓拍视频</a> -->
+		<?php
+		    echo "<a href=\"./short_video/short_video.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">抓拍视频</a>\n";
+		?>
+
 		<a href="#" data-role="button" data-icon="gear" data-theme="a">系统设置</a>
 
 	</div><!-- /panel -->
