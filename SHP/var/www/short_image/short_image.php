@@ -30,10 +30,6 @@
 		<input type="button" data-icon="plus" data-theme="e" id="short" value="抓拍">
 
 	</div><!-- /panel -->
-
-</div><!-- /page -->
-
-
 <script type="text/javascript">
 $('#short').click(function() {
     $.post("./short.php",
@@ -50,6 +46,10 @@ $('#short').click(function() {
     });
 });
 </script>
+</div><!-- /page -->
+
+
+
 
 
 </body>
