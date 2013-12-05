@@ -13,7 +13,7 @@
 	<script src="./js/jquery.mobile-1.3.2.min.js"></script>
 </head>
 <body>
-<div data-role="page" class="jqm-demos jqm-demos-index">
+<div data-role="page" class="jqm-demos jqm-demos-index" id="xxx">
 
 	<div data-role="header" class="jqm-header">
         <h1 class="jqm-logo"><a href=""><img src="./_assets/img/SHP-logo.png" alt="SHP"></a></h1>
@@ -21,8 +21,15 @@
 	</div><!-- /header -->
 
 	<div data-role="content" class="jqm-content">
-		<a href="#" data-role="button" data-icon="info">快速巡检</a>
-		<a href="#" data-role="button" data-icon="star">定时快照</a>
+		<!--<a href="#" data-role="button" data-icon="info">快速巡检</a>-->
+		<?php 
+		    echo "<a href=\"./quick_check/quick_check.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">快速巡检</a>\n";
+		?>
+
+		<!--<a href="#" data-role="button" data-icon="info">定时快照</a>-->
+		<?php 
+		    echo "<a href=\"./photo_time/photo_time.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">定时快照</a>\n";
+		?>
 
 		<!-- <a href="./short_image/short_image.html" data-role="button" data-icon="star" data-theme="e">抓拍照片</a> -->
 		<?php
@@ -33,8 +40,11 @@
 		<?php
 		    echo "<a href=\"./short_video/short_video.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">抓拍视频</a>\n";
 		?>
+		<!--<a href="#" data-role="button" data-icon="gear" data-theme="a">系统设置</a>-->
+<?php
+		    echo "<a href=\"./system_set/system_set.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"a\">系统设置</a>\n";
+		?>
 
-		<a href="#" data-role="button" data-icon="gear" data-theme="a">系统设置</a>
 
 	</div><!-- /panel -->
 </div><!-- /page -->
