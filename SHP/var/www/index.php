@@ -28,7 +28,7 @@
 
 		<!--<a href="#" data-role="button" data-icon="info">定时快照</a>-->
 		<?php 
-		    echo "<a href=\"./photo_time/photo_time.php?t=".rand()."\" data-role=\"button\" data-icon=\"star\" data-theme=\"e\">定时快照</a>\n";
+		    echo "<a href=\"./photo_time/photo_time.php?t=".rand()."\" data-role=\"button\" data-ajax=\"false\" data-icon=\"star\" data-theme=\"e\">定时快照</a>\n";
 		?>
 
 		<!-- <a href="./short_image/short_image.html" data-role="button" data-icon="star" data-theme="e">抓拍照片</a> -->
