@@ -19,38 +19,74 @@
         <a href="../index.html" data-rel="back" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
         <h1>快速巡检</h1>
     </div><!-- /header -->
-	<div>
-		<div class="ui-grid-a">
-
-		    <div class="ui-block-a"><div class="ui-bar ui-bar-e">
-			    <ul data-role="listview">carema status
-				    <li>carema 1:  ok</li>
-				    <li>carema 2:  ok</li>
-			    </ul>
-			    <ul data-role="listview">IRDA status
-				    <li>IRDA 1:  ok</li>
-				    <li>IRDA 2:  ok</li>
-			    </ul>
-			    <ul data-role="listview">Door status
-				    <li>Door 1:  ok</li>
-				    <li>Door 2:  ok</li>
-			    </ul>
-			    <ul data-role="listview">Windows status
-				    <li>Windows 1:  ok</li>
-				    <li>Windows 2:  ok</li>
-			    </ul>
-			    <ul data-role="listview">Gas status
-				    <li>Gas:  ok</li>
-			    </ul>
-			    <ul data-role="listview">Smoke status
-				    <li>Smoke:  ok</li>
-			    </ul>
-                    </div></div>
-                    <div class="ui-block-b"><div class="ui-bar ui-bar-e" style="height:80px" >
-			safe
-		    </div></div>
-		</div><!-- /grid-a -->
-	<div>
+		 <br>
+		 <label type="button" ><strong>快速巡检</strong></label>
+                 <label for="textarea1"><strong>安全状况</strong></label>
+	         <div  style="text-align:center">
+			<a  style="height:80px;font-size:xx-large">safe</a>
+                 </div>
+		  <br>
+                  <label for="textarea1"><strong>详细情报</strong></label>
+		  
+		  <div data-role="collapsible">
+			<h2>Carema status</h2>
+			<ul data-role="listview" data-theme="d" data-divider-theme="d">
+			    <li>
+				<h3>carema 1:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>
+			    <li>
+				<h3>carema 2:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>			    
+			</ul>
+		    </div>
+		  <div data-role="collapsible">
+			<h2>IRDA status</h2>
+			<ul data-role="listview" data-theme="d" data-divider-theme="d">
+			    <li>
+				<h3>IRDA 1:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>
+			    <li>
+				<h3>IRDA 2:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>			    
+			</ul>
+		    </div>
+		  <div data-role="collapsible">
+			<h2>Windows status</h2>
+			<ul data-role="listview" data-theme="d" data-divider-theme="d">
+			    <li>
+				<h3>Windows 1:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>
+			    <li>
+				<h3>Windows 2:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>			    
+			</ul>
+		    </div>
+		  <div data-role="collapsible">
+			<h2>Gas status</h2>
+			<ul data-role="listview" data-theme="d" data-divider-theme="d">
+			    <li>
+				<h3>Gas 1:</h3>
+				<p class="ui-li-aside"><strong> ok</strong></p>
+			    </a></li>		    
+			</ul>
+		    </div>
+		  <div data-role="collapsible">
+			<h2>Smoke status</h2>
+			<ul data-role="listview" data-theme="d" data-divider-theme="d">
+			    <li>
+				<h3>Smoke 1:</h3>
+				<p ><strong> ok</strong></p>
+			    </a></li>		    
+			</ul>
+		  </div>
+              
+	</div><!-- /content -->
 </div><!-- /page -->
 
 

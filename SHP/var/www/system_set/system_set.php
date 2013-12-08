@@ -20,36 +20,39 @@
         <a href="../index.html" data-rel="back" data-icon="arrow-l" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
         <h1>系统设置</h1>
     </div><!-- /header -->
-<!--safe mode open and close
-<div data-role="fieldcontain">
-    <label for="prepend">safe mode</label>
-    <button id="prepend" data-role="button" data-mini="true" data-inline="true">open</button>
-    <button id="append" data-role="button" data-mini="true" data-inline="true">close</button>
-</div>
--->
-<div>
-    <label for="flip-2">safe mode</label>
-    <select name="flip-2" id="flip-2" data-role="slider" data-track-theme="a" data-theme="a">
-        <option value="off">Off</option>
-        <option value="on">On</option>
-    </select>
-</div>
-    <label for="time-1" data-clear-btn="false">StartTime: </label>
-    <input type="time" data-clear-btn="false" name="time-1" id="time-1" value=""/>
-    <label for="time-2"  data-clear-btn="true">EndTime:</label>
-    <input type="time" data-clear-btn="true" name="time-2" id="time-2" value=""/>
-
-    <ul data-role="listview">
-	    <li>telephone 1:</li>
-	    <li>telephone 2:</li>
-	    <li>telephone 3:</li>
-	    <li>telephone 4:</li>
-	    <li>telephone 5:</li>
-    </ul>
-
-    <a href="#" data-role="button" data-mini="true" data-inline="true" data-icon="check" data-theme="b">commit</a>
-<!--js-->
-
+    <div data-role="content">
+         <div>
+	    <select name="flip-2" id="flip-2" data-role="slider" data-track-theme="a" data-theme="a">
+		<option value="off">Off</option>
+		<option value="on">On</option>
+	    </select>
+		<ul data-role="listview" data-inset="true">
+		<li data-role="fieldcontain">
+		    <label for="textarea1">开始时间:</label>
+		    <input type="text" name="name1" id="name1" value="2013/12/12 10:00:00" data-clear-btn="true">
+		</li>
+		<li data-role="fieldcontain">
+		    <label for="textarea2">结束时间:</label>
+		   <input type="text" name="name2" id="name2" value="2013/12/12 18:00:00" data-clear-btn="true">
+		</li>
+		</ul>
+         </div>
+         <div>
+            <label for="time-1" data-clear-btn="false">紧急联系电话: </label>
+	    <ul data-role="list" data-theme="a">
+		    <li>telephone 1:<input type="time" data-clear-btn="true" name="time-2" id="time-2" value="12345678901"/></li>
+		    <li>telephone 2:</li>
+		    <li>telephone 3:</li>
+		    
+	    </ul>
+         </div>
+         <li class="ui-body ui-body-b">
+         <fieldset class="ui-grid-a">
+            <div class="ui-block-a"><button type="submit" data-theme="d">修改</button></div>
+            <div class="ui-block-b"><button type="submit" data-theme="a">提交</button></div>
+         </fieldset>
+        </li>
+  </div><!-- content -->
 
 
 </div><!-- /page -->
